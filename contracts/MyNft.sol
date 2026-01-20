@@ -3,8 +3,7 @@ pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts/access/ERC721/Ownable.sol";
-import "@openzeppelin/contracts/utils/ERC721/Counters.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract MyNFT is ERC721, ERC721URIStorage, Ownable {
     using Counters for Counters.Counters;
