@@ -14,7 +14,7 @@ const MyNFTModule = buildModule("MyNFTModule", (m) => {
     "ipfs://QmXxx/initial.json"
   );
   
-  m.call(myNFT, "mintNFT", [
+  m.call(myNFT, "mint", [
     m.getAccount(0),  // 第一个账户（部署者）
     initialTokenURI
   ]);
